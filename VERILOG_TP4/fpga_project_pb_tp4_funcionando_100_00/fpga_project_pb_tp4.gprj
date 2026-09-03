@@ -1,0 +1,26 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NSR-4C" pn="GW1NSR-LV4CQN48PC6/I5">gw1nsr4c-000</Device>
+    <FileList>
+        <File path="src/bmp180_controller.v" type="file.verilog" enable="1"/>
+        <File path="src/mcp3008_controller.v" type="file.verilog" enable="1"/>
+        <File path="src/sensor_dsp.v" type="file.verilog" enable="1"/>
+        <File path="src/spi_slave_pi4.v" type="file.verilog" enable="1"/>
+        <File path="src/tang_nano_4k_top.v" type="file.verilog" enable="1"/>
+        <File path="src/tb_mcp3008.v" type="file.verilog" enable="1"/>
+        <File path="src/tb_sensor_dsp.v" type="file.verilog" enable="1"/>
+        <File path="src/tb_spi_slave_pi4.v" type="file.verilog" enable="1"/>
+        <File path="src/tb_tang_nano_4k_top_compile.v" type="file.verilog" enable="1"/>
+        <File path="src/tb_tp4_additions.v" type="file.verilog" enable="1"/>
+        <File path="src/tb_tp4_compute_top.v" type="file.verilog" enable="1"/>
+        <File path="src/tb_tp4_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/tp4_alu.v" type="file.verilog" enable="1"/>
+        <File path="src/tp4_bram.v" type="file.verilog" enable="1"/>
+        <File path="src/tp4_compute_top.v" type="file.verilog" enable="1"/>
+        <File path="src/tp4_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/projtp3.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

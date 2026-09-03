@@ -1,0 +1,50 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\bmp180_controller.v'
+Analyzing Verilog file 'C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\mcp3008_controller.v'
+Analyzing Verilog file 'C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\sensor_dsp.v'
+Analyzing Verilog file 'C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\spi_slave_pi4.v'
+Analyzing Verilog file 'C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tang_nano_4k_top.v'
+Analyzing Verilog file 'C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tb_mcp3008.v'
+Analyzing Verilog file 'C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tb_sensor_dsp.v'
+Analyzing Verilog file 'C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tb_spi_slave_pi4.v'
+Analyzing Verilog file 'C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tb_tang_nano_4k_top_compile.v'
+Analyzing Verilog file 'C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tb_tp4_additions.v'
+Analyzing Verilog file 'C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tb_tp4_compute_top.v'
+Analyzing Verilog file 'C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tb_tp4_pll.v'
+Analyzing Verilog file 'C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tp4_alu.v'
+Analyzing Verilog file 'C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tp4_bram.v'
+Analyzing Verilog file 'C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tp4_compute_top.v'
+Analyzing Verilog file 'C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tp4_pll.v'
+Compiling module 'tang_nano_4k_top'("C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tang_nano_4k_top.v":15)
+Compiling module 'mcp3008_controller'("C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\mcp3008_controller.v":34)
+Compiling module 'sensor_dsp'("C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\sensor_dsp.v":21)
+Compiling module 'tp4_dsp_mult18x18'("C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\sensor_dsp.v":98)
+Compiling module 'bmp180_controller'("C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\bmp180_controller.v":4)
+Compiling module 'spi_slave_pi4'("C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\spi_slave_pi4.v":19)
+Compiling module 'tp4_compute_top'("C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tp4_compute_top.v":12)
+Compiling module 'tp4_pll'("C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tp4_pll.v":19)
+Compiling module 'tp4_alu'("C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tp4_alu.v":16)
+Compiling module 'tp4_bram'("C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tp4_bram.v":18)
+Extracting RAM for identifier 'lut'("C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tp4_bram.v":118)
+NOTE  (EX0101) : Current top module is "tang_nano_4k_top"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input arm_spi_mosi is unused("C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\tang_nano_4k_top.v":31)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\impl\gwsynthesis\fpga_project_pb_tp4.vg" completed
+[100%] Generate report file "C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\impl\gwsynthesis\fpga_project_pb_tp4_syn.rpt.html" completed
+GowinSynthesis finish

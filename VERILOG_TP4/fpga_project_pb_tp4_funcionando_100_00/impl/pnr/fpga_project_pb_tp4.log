@@ -1,0 +1,31 @@
+Reading netlist file: "C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\impl\gwsynthesis\fpga_project_pb_tp4.vg"
+Parsing netlist file "C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\impl\gwsynthesis\fpga_project_pb_tp4.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\src\projtp3.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1132) :  'sys_clk' was determined to be a clock but was not created.
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'clk_out' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\impl\pnr\fpga_project_pb_tp4.power.html" completed
+Generate file "C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\impl\pnr\fpga_project_pb_tp4.pin.html" completed
+Generate file "C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\impl\pnr\fpga_project_pb_tp4.rpt.html" completed
+Generate file "C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\impl\pnr\fpga_project_pb_tp4.rpt.txt" completed
+Generate file "C:\Users\elian\Desktop\TP4 PB Tudo FUNCIONANDO\Projeto_TP4 Ok\VERILOG OK\fpga_project_pb_tp4_funcionando_100_00\impl\pnr\fpga_project_pb_tp4.tr.html" completed
+Thu Sep  3 16:43:11 2026
+

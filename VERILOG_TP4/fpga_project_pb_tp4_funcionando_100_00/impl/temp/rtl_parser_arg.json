@@ -1,0 +1,77 @@
+{
+ "Device" : "GW1NSR-4C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/elian/Desktop/TP4 PB Tudo FUNCIONANDO/Projeto_TP4 Ok/VERILOG OK/fpga_project_pb_tp4_funcionando_100_00/src/bmp180_controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/elian/Desktop/TP4 PB Tudo FUNCIONANDO/Projeto_TP4 Ok/VERILOG OK/fpga_project_pb_tp4_funcionando_100_00/src/mcp3008_controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/elian/Desktop/TP4 PB Tudo FUNCIONANDO/Projeto_TP4 Ok/VERILOG OK/fpga_project_pb_tp4_funcionando_100_00/src/sensor_dsp.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/elian/Desktop/TP4 PB Tudo FUNCIONANDO/Projeto_TP4 Ok/VERILOG OK/fpga_project_pb_tp4_funcionando_100_00/src/spi_slave_pi4.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/elian/Desktop/TP4 PB Tudo FUNCIONANDO/Projeto_TP4 Ok/VERILOG OK/fpga_project_pb_tp4_funcionando_100_00/src/tang_nano_4k_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/elian/Desktop/TP4 PB Tudo FUNCIONANDO/Projeto_TP4 Ok/VERILOG OK/fpga_project_pb_tp4_funcionando_100_00/src/tb_mcp3008.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/elian/Desktop/TP4 PB Tudo FUNCIONANDO/Projeto_TP4 Ok/VERILOG OK/fpga_project_pb_tp4_funcionando_100_00/src/tb_sensor_dsp.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/elian/Desktop/TP4 PB Tudo FUNCIONANDO/Projeto_TP4 Ok/VERILOG OK/fpga_project_pb_tp4_funcionando_100_00/src/tb_spi_slave_pi4.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/elian/Desktop/TP4 PB Tudo FUNCIONANDO/Projeto_TP4 Ok/VERILOG OK/fpga_project_pb_tp4_funcionando_100_00/src/tb_tang_nano_4k_top_compile.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/elian/Desktop/TP4 PB Tudo FUNCIONANDO/Projeto_TP4 Ok/VERILOG OK/fpga_project_pb_tp4_funcionando_100_00/src/tb_tp4_additions.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/elian/Desktop/TP4 PB Tudo FUNCIONANDO/Projeto_TP4 Ok/VERILOG OK/fpga_project_pb_tp4_funcionando_100_00/src/tb_tp4_compute_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/elian/Desktop/TP4 PB Tudo FUNCIONANDO/Projeto_TP4 Ok/VERILOG OK/fpga_project_pb_tp4_funcionando_100_00/src/tb_tp4_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/elian/Desktop/TP4 PB Tudo FUNCIONANDO/Projeto_TP4 Ok/VERILOG OK/fpga_project_pb_tp4_funcionando_100_00/src/tp4_alu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/elian/Desktop/TP4 PB Tudo FUNCIONANDO/Projeto_TP4 Ok/VERILOG OK/fpga_project_pb_tp4_funcionando_100_00/src/tp4_bram.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/elian/Desktop/TP4 PB Tudo FUNCIONANDO/Projeto_TP4 Ok/VERILOG OK/fpga_project_pb_tp4_funcionando_100_00/src/tp4_compute_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/elian/Desktop/TP4 PB Tudo FUNCIONANDO/Projeto_TP4 Ok/VERILOG OK/fpga_project_pb_tp4_funcionando_100_00/src/tp4_pll.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/elian/Desktop/TP4 PB Tudo FUNCIONANDO/Projeto_TP4 Ok/VERILOG OK/fpga_project_pb_tp4_funcionando_100_00/impl/temp/rtl_parser.result",
+ "Top" : "tang_nano_4k_top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

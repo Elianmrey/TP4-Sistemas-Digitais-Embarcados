@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="tang_nano_4k_top" Register="3" Lut="3" T_Register="1324(3)" T_Alu="492(0)" T_Lut="2670(3)" T_MULT18X18="2(0)" T_ALU54D="3(0)" T_Bsram="1(0)">
+ <SubModule name="u_mcp" Register="72" Lut="84" T_Register="72(72)" T_Lut="84(84)"/>
+ <SubModule name="u_sensor_dsp" Register="42" Lut="315" ALU54D="2" T_Register="42(42)" T_Lut="315(315)" T_MULT18X18="2(0)" T_ALU54D="2(2)">
+  <SubModule name="u_dsp_lm35" MULT18X18="1" T_MULT18X18="1(1)"/>
+  <SubModule name="u_dsp_pot" MULT18X18="1" T_MULT18X18="1(1)"/>
+ </SubModule>
+ <SubModule name="u_bmp" Register="1011" Alu="482" Lut="2102" ALU54D="1" T_Register="1011(1011)" T_Alu="482(482)" T_Lut="2102(2102)" T_ALU54D="1(1)"/>
+ <SubModule name="u_pi_spi" Register="118" Lut="114" T_Register="118(118)" T_Lut="114(114)"/>
+ <SubModule name="u_tp4_compute" Register="60" Lut="19" T_Register="78(60)" T_Alu="10(0)" T_Lut="52(19)" T_Bsram="1(0)">
+  <SubModule name="u_tp4_pll" Register="18" Lut="33" T_Register="18(18)" T_Lut="33(33)"/>
+  <SubModule name="u_tp4_alu" Alu="10" T_Alu="10(10)"/>
+  <SubModule name="u_tp4_bram" Bsram="1" T_Bsram="1(1)"/>
+ </SubModule>
+</Module>
