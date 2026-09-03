@@ -1,0 +1,130 @@
+$date
+	Tue Sep 01 17:22:50 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_tp4_additions $end
+$var wire 32 ! y [31:0] $end
+$var wire 1 " ov $end
+$var wire 16 # bram_data [15:0] $end
+$var reg 16 $ a [15:0] $end
+$var reg 8 % addr [7:0] $end
+$var reg 16 & b [15:0] $end
+$var reg 1 ' clk $end
+$var reg 1 ( en $end
+$var reg 2 ) op [1:0] $end
+$var integer 32 * tests_failed [31:0] $end
+$var integer 32 + tests_passed [31:0] $end
+$var integer 32 , tests_total [31:0] $end
+$scope module dut_alu $end
+$var wire 16 - a [15:0] $end
+$var wire 16 . b [15:0] $end
+$var wire 2 / op [1:0] $end
+$var wire 1 " overflow $end
+$var reg 32 0 y [31:0] $end
+$upscope $end
+$scope module dut_bram $end
+$var wire 8 1 addr [7:0] $end
+$var wire 1 ' clk $end
+$var wire 1 ( en $end
+$var parameter 32 2 ADDR_WIDTH $end
+$var parameter 32 3 DATA_WIDTH $end
+$var reg 16 4 data [15:0] $end
+$var integer 32 5 i [31:0] $end
+$upscope $end
+$scope task check_alu $end
+$upscope $end
+$scope task check_bram $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10000 3
+b1000 2
+$end
+#0
+$dumpvars
+b100000000 5
+bx 4
+b0 1
+b10000100 0
+b10 /
+b1011 .
+b1100 -
+b1 ,
+b0 +
+b0 *
+b10 )
+0(
+0'
+b1011 &
+b0 %
+b1100 $
+bx #
+0"
+b10000100 !
+$end
+#1000
+b0 !
+b0 0
+b0 &
+b0 .
+b0 $
+b0 -
+b0 )
+b0 /
+b10 ,
+b1 +
+#2000
+b10 !
+b10 0
+b1 &
+b1 .
+b1 $
+b1 -
+b11 ,
+b10 +
+#3000
+1"
+b10000000000000000 !
+b10000000000000000 0
+b1111111111111111 $
+b1111111111111111 -
+b100 ,
+b11 +
+#4000
+0"
+b110100010101100 !
+b110100010101100 0
+b101011001111000 &
+b101011001111000 .
+b1001000110100 $
+b1001000110100 -
+b101 ,
+b100 +
+#5000
+b1111111111111110 !
+b1111111111111110 0
+b1 &
+b1 .
+b1111111111111111 $
+b1111111111111111 -
+b1 )
+b1 /
+b110 ,
+b101 +
+1'
+#6000
+b11111111111111111111111111111111 !
+b11111111111111111111111111111111 0
+b0 $
+b0 -
+b111 ,
+b110 +
+#7000
+b1 *

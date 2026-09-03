@@ -1,0 +1,1060 @@
+$date
+	Tue Sep 01 17:23:10 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_tang_nano_4k_top_compile $end
+$var wire 1 ! bmp_scl $end
+$var wire 1 " bmp_sda $end
+$var wire 1 # mcp_sclk $end
+$var wire 1 $ mcp_mosi $end
+$var wire 1 % mcp_cs_n $end
+$var wire 3 & led [2:0] $end
+$var wire 1 ' arm_spi_miso $end
+$var reg 1 ( arm_spi_cs_n $end
+$var reg 1 ) arm_spi_mosi $end
+$var reg 1 * arm_spi_sclk $end
+$var reg 1 + mcp_miso $end
+$var reg 1 , rst_n $end
+$var reg 1 - sys_clk $end
+$var integer 32 . tests_failed [31:0] $end
+$var integer 32 / tests_passed [31:0] $end
+$var integer 32 0 tests_total [31:0] $end
+$scope module dut $end
+$var wire 1 ( arm_spi_cs_n $end
+$var wire 1 ) arm_spi_mosi $end
+$var wire 1 * arm_spi_sclk $end
+$var wire 1 ! bmp_scl $end
+$var wire 1 " bmp_sda $end
+$var wire 3 1 led [2:0] $end
+$var wire 1 + mcp_miso $end
+$var wire 1 , rst_n $end
+$var wire 1 - sys_clk $end
+$var wire 16 2 tp4_bram_value [15:0] $end
+$var wire 8 3 tp4_bram_addr [7:0] $end
+$var wire 16 4 pot_raw_dsp [15:0] $end
+$var wire 10 5 pot_raw_adc [9:0] $end
+$var wire 8 6 pot_percent [7:0] $end
+$var wire 1 7 pi_frame_valid $end
+$var wire 8 8 pi_command_byte [7:0] $end
+$var wire 1 9 mcp_valid $end
+$var wire 1 # mcp_sclk $end
+$var wire 1 $ mcp_mosi $end
+$var wire 1 % mcp_cs_n $end
+$var wire 1 : mcp_busy $end
+$var wire 16 ; lm35_temp_x10 [15:0] $end
+$var wire 16 < lm35_raw_dsp [15:0] $end
+$var wire 10 = lm35_raw_adc [9:0] $end
+$var wire 1 > dsp_valid $end
+$var wire 1 ? bmp_valid $end
+$var wire 16 @ bmp_temp [15:0] $end
+$var wire 32 A bmp_pressure_pa [31:0] $end
+$var wire 1 B bmp_error $end
+$var wire 1 C bmp_busy $end
+$var wire 1 ' arm_spi_miso $end
+$var parameter 32 D CLK_HZ $end
+$var parameter 32 E I2C_CONVERSION $end
+$var parameter 32 F I2C_HZ $end
+$var parameter 32 G I2C_PERIOD $end
+$var parameter 32 H SPI_SAMPLE_PERIOD $end
+$var reg 3 I led_reg [2:0] $end
+$var reg 1 J mcp_valid_d $end
+$scope module u_bmp $end
+$var wire 1 ! bmp_scl $end
+$var wire 1 " bmp_sda $end
+$var wire 1 - clk $end
+$var wire 1 , rst_n $end
+$var wire 48 K mul_signed_step [47:0] $end
+$var wire 32 L mul_shift16 [31:0] $end
+$var wire 32 M mul_shift15 [31:0] $end
+$var wire 32 N mul_shift13 [31:0] $end
+$var wire 32 O mul_shift11 [31:0] $end
+$var wire 48 P mul_accum_step [47:0] $end
+$var wire 1 Q i2c_tick $end
+$var wire 1 R div_take $end
+$var wire 41 S div_rem_step [40:0] $end
+$var wire 41 T div_rem_shift [40:0] $end
+$var wire 40 U div_q_step [39:0] $end
+$var wire 32 V b3_value32 [31:0] $end
+$var wire 32 W b3_sum32 [31:0] $end
+$var parameter 32 X CLK_HZ $end
+$var parameter 6 Y C_B3_SQ_START $end
+$var parameter 6 Z C_B3_SQ_WAIT $end
+$var parameter 6 [ C_B3_X1_START $end
+$var parameter 6 \ C_B3_X1_WAIT $end
+$var parameter 6 ] C_B3_X2_START $end
+$var parameter 6 ^ C_B3_X2_WAIT $end
+$var parameter 6 _ C_B4_X1_START $end
+$var parameter 6 ` C_B4_X1_WAIT $end
+$var parameter 6 a C_B4_X2_START $end
+$var parameter 6 b C_B4_X2_WAIT $end
+$var parameter 6 c C_B4_X3_START $end
+$var parameter 6 d C_B4_X3_WAIT $end
+$var parameter 6 e C_B7_START $end
+$var parameter 6 f C_DONE $end
+$var parameter 6 g C_IDLE $end
+$var parameter 6 h C_P_APPLY $end
+$var parameter 6 i C_P_DIV_START $end
+$var parameter 6 j C_P_DIV_WAIT $end
+$var parameter 6 k C_P_FINISH $end
+$var parameter 6 l C_P_SQ_START $end
+$var parameter 6 m C_P_SQ_WAIT $end
+$var parameter 6 n C_P_X1_START $end
+$var parameter 6 o C_P_X1_WAIT $end
+$var parameter 6 p C_P_X2_START $end
+$var parameter 6 q C_P_X2_WAIT $end
+$var parameter 6 r C_TEMP_X1_START $end
+$var parameter 6 s C_TEMP_X1_WAIT $end
+$var parameter 6 t C_TEMP_X2_APPLY $end
+$var parameter 6 u C_TEMP_X2_DIV_START $end
+$var parameter 6 v C_TEMP_X2_DIV_WAIT $end
+$var parameter 32 w I2C_DIV_W $end
+$var parameter 32 x I2C_HZ $end
+$var parameter 32 y I2C_QUARTER $end
+$var parameter 3 z OP_CAL_READ $end
+$var parameter 3 { OP_PRESS_READ $end
+$var parameter 3 | OP_PRESS_WRITE $end
+$var parameter 3 } OP_TEMP_READ $end
+$var parameter 3 ~ OP_TEMP_WRITE $end
+$var parameter 32 !" PRESS_TICKS $end
+$var parameter 32 "" PRESS_WAIT_MS $end
+$var parameter 5 #" ST_ACK $end
+$var parameter 5 $" ST_CALC $end
+$var parameter 5 %" ST_IDLE $end
+$var parameter 5 &" ST_MASTER_ACK $end
+$var parameter 5 '" ST_RECV $end
+$var parameter 5 (" ST_SEND $end
+$var parameter 5 )" ST_START $end
+$var parameter 5 *" ST_STOP $end
+$var parameter 5 +" ST_WAIT $end
+$var parameter 32 ," TEMP_TICKS $end
+$var parameter 32 -" TEMP_WAIT_MS $end
+$var parameter 32 ." WAIT_W $end
+$var reg 16 /" ac1 [15:0] $end
+$var reg 16 0" ac2 [15:0] $end
+$var reg 16 1" ac3 [15:0] $end
+$var reg 16 2" ac4 [15:0] $end
+$var reg 16 3" ac5 [15:0] $end
+$var reg 16 4" ac6 [15:0] $end
+$var reg 1 5" ack_ok $end
+$var reg 16 6" b1 [15:0] $end
+$var reg 16 7" b2 [15:0] $end
+$var reg 32 8" b3 [31:0] $end
+$var reg 32 9" b4 [31:0] $end
+$var reg 32 :" b5 [31:0] $end
+$var reg 32 ;" b6 [31:0] $end
+$var reg 32 <" b6_square [31:0] $end
+$var reg 40 =" b7 [39:0] $end
+$var reg 4 >" bit_count [3:0] $end
+$var reg 1 C busy $end
+$var reg 5 ?" cal_byte_index [4:0] $end
+$var reg 6 @" calc_state [5:0] $end
+$var reg 1 ? data_valid $end
+$var reg 1 A" div_busy $end
+$var reg 6 B" div_count [5:0] $end
+$var reg 40 C" div_dividend [39:0] $end
+$var reg 40 D" div_divisor [39:0] $end
+$var reg 1 E" div_floor $end
+$var reg 1 F" div_neg $end
+$var reg 1 G" div_post_shift $end
+$var reg 40 H" div_quotient [39:0] $end
+$var reg 41 I" div_remainder [40:0] $end
+$var reg 40 J" div_result [39:0] $end
+$var reg 1 B error $end
+$var reg 1 K" i2c_div_count $end
+$var reg 16 L" mb [15:0] $end
+$var reg 16 M" mc [15:0] $end
+$var reg 16 N" md [15:0] $end
+$var reg 48 O" mul_accum [47:0] $end
+$var reg 1 P" mul_busy $end
+$var reg 5 Q" mul_count [4:0] $end
+$var reg 48 R" mul_mcand [47:0] $end
+$var reg 24 S" mul_mplier [23:0] $end
+$var reg 1 T" mul_neg $end
+$var reg 48 U" mul_product [47:0] $end
+$var reg 3 V" op [2:0] $end
+$var reg 32 W" p_calc [31:0] $end
+$var reg 2 X" phase [1:0] $end
+$var reg 32 Y" pressure_pa [31:0] $end
+$var reg 2 Z" read_index [1:0] $end
+$var reg 6 [" read_remaining [5:0] $end
+$var reg 8 \" rx_byte [7:0] $end
+$var reg 8 ]" rx_lsb [7:0] $end
+$var reg 8 ^" rx_msb [7:0] $end
+$var reg 1 _" scl_low $end
+$var reg 1 `" sda_low $end
+$var reg 3 a" seq [2:0] $end
+$var reg 5 b" state [4:0] $end
+$var reg 32 c" temp_calc [31:0] $end
+$var reg 16 d" temperature_x10 [15:0] $end
+$var reg 8 e" tx_byte [7:0] $end
+$var reg 16 f" up_raw [15:0] $end
+$var reg 16 g" ut_raw [15:0] $end
+$var reg 1 h" wait_count $end
+$var reg 32 i" x1 [31:0] $end
+$var reg 32 j" x2 [31:0] $end
+$var integer 32 k" i [31:0] $end
+$scope function abs24 $end
+$var reg 32 l" v [31:0] $end
+$upscope $end
+$scope function abs40 $end
+$var reg 40 m" v [39:0] $end
+$upscope $end
+$scope function scale50000 $end
+$var reg 40 n" v [39:0] $end
+$upscope $end
+$scope function signed_div_result $end
+$var reg 1 o" floor_mode $end
+$var reg 1 p" neg $end
+$var reg 1 q" post_shift $end
+$var reg 40 r" q [39:0] $end
+$var reg 1 s" rem_nonzero $end
+$var reg 40 t" t [39:0] $end
+$upscope $end
+$scope function sx16 $end
+$var reg 16 u" v [15:0] $end
+$upscope $end
+$scope function ux16 $end
+$var reg 16 v" v [15:0] $end
+$upscope $end
+$upscope $end
+$scope module u_mcp $end
+$var wire 1 - clk $end
+$var wire 1 , rst_n $end
+$var wire 1 + spi_miso $end
+$var parameter 5 w" ADC_DATA_FIRST_RISE $end
+$var parameter 5 x" ADC_FINISH_EDGE $end
+$var parameter 5 y" ADC_LAST_RISE $end
+$var parameter 32 z" CLK_HZ $end
+$var parameter 32 {" DIV_HALF $end
+$var parameter 32 |" DIV_W $end
+$var parameter 3 }" FINISH $end
+$var parameter 3 ~" IDLE $end
+$var parameter 32 !# SAMPLE_PERIOD $end
+$var parameter 32 "# SPI_HZ $end
+$var parameter 3 ## START $end
+$var parameter 32 $# TIMER_W $end
+$var parameter 3 %# TRANSFER $end
+$var reg 1 : busy $end
+$var reg 10 &# ch0_data [9:0] $end
+$var reg 10 '# ch7_data [9:0] $end
+$var reg 1 (# channel $end
+$var reg 1 9 data_valid $end
+$var reg 1 )# div_cnt $end
+$var reg 5 *# edge_count [4:0] $end
+$var reg 10 +# rx_shift [9:0] $end
+$var reg 5 ,# sample_timer [4:0] $end
+$var reg 1 % spi_cs_n $end
+$var reg 1 $ spi_mosi $end
+$var reg 1 # spi_sclk $end
+$var reg 3 -# state [2:0] $end
+$var reg 16 .# tx_shift [15:0] $end
+$upscope $end
+$scope module u_pi_spi $end
+$var wire 1 ( arm_spi_cs_n $end
+$var wire 1 ' arm_spi_miso $end
+$var wire 1 ) arm_spi_mosi $end
+$var wire 1 * arm_spi_sclk $end
+$var wire 32 /# bmp_pressure_pa [31:0] $end
+$var wire 16 0# bmp_temp [15:0] $end
+$var wire 1 1# cs_fall $end
+$var wire 1 2# cs_rise $end
+$var wire 1 , rst_n $end
+$var wire 1 3# sclk_fall $end
+$var wire 1 4# sclk_rise $end
+$var wire 1 - sys_clk $end
+$var wire 16 5# pot_raw [15:0] $end
+$var wire 8 6# pot_percent [7:0] $end
+$var wire 16 7# lm35_temp_x10 [15:0] $end
+$var wire 16 8# lm35_raw [15:0] $end
+$var reg 8 9# bit_count [7:0] $end
+$var reg 8 :# command_byte [7:0] $end
+$var reg 1 ;# cs_meta $end
+$var reg 1 <# cs_prev $end
+$var reg 1 =# cs_sync $end
+$var reg 1 7 frame_valid $end
+$var reg 1 ># miso_reg $end
+$var reg 1 ?# mosi_meta $end
+$var reg 1 @# mosi_sync $end
+$var reg 112 A# rx_shift [111:0] $end
+$var reg 1 B# sclk_meta $end
+$var reg 1 C# sclk_prev $end
+$var reg 1 D# sclk_sync $end
+$var reg 112 E# tx_shift [111:0] $end
+$upscope $end
+$scope module u_sensor_dsp $end
+$var wire 1 - clk $end
+$var wire 10 F# lm35_adc [9:0] $end
+$var wire 10 G# pot_adc [9:0] $end
+$var wire 1 , rst_n $end
+$var wire 1 J sample_valid $end
+$var wire 17 H# pot_scaled [16:0] $end
+$var wire 18 I# pot_round_sum [17:0] $end
+$var wire 17 J# pot_product [16:0] $end
+$var wire 18 K# pot_div_result [17:0] $end
+$var wire 22 L# lm35_scaled [21:0] $end
+$var wire 23 M# lm35_round_sum [22:0] $end
+$var wire 22 N# lm35_product [21:0] $end
+$var wire 23 O# lm35_div_result [22:0] $end
+$var parameter 32 P# ADC_MAX $end
+$var parameter 32 Q# LM35_SCALE_X10 $end
+$var parameter 32 R# POT_SCALE_PERCENT $end
+$var reg 1 > data_valid $end
+$var reg 16 S# lm35_raw [15:0] $end
+$var reg 16 T# lm35_temp_x10 [15:0] $end
+$var reg 8 U# pot_percent [7:0] $end
+$var reg 16 V# pot_raw [15:0] $end
+$upscope $end
+$scope module u_tp4_bram $end
+$var wire 8 W# addr [7:0] $end
+$var wire 1 - clk $end
+$var wire 1 > en $end
+$var parameter 32 X# ADDR_WIDTH $end
+$var parameter 32 Y# DATA_WIDTH $end
+$var reg 16 Z# data [15:0] $end
+$var integer 32 [# i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10000 Y#
+b1000 X#
+b1100100 R#
+b110011100100 Q#
+b1111111111 P#
+b10 %#
+b101 $#
+b1 ##
+b1111010000100100000 "#
+b10100 !#
+b0 ~"
+b11 }"
+b1 |"
+b1 {"
+b1100100 z"
+b10000 y"
+b10001 x"
+b111 w"
+b1 ."
+b101 -"
+b1 ,"
+b111 +"
+b110 *"
+b1 )"
+b10 ("
+b100 '"
+b101 &"
+b0 %"
+b1000 $"
+b11 #"
+b1000 ""
+b1 !"
+b1 ~
+b10 }
+b11 |
+b100 {
+b0 z
+b1 y
+b11000011010100000 x
+b1 w
+b100 v
+b11 u
+b101 t
+b10 s
+b1 r
+b11011 q
+b11010 p
+b11001 o
+b11000 n
+b10111 m
+b10110 l
+b11100 k
+b10100 j
+b10011 i
+b10101 h
+b0 g
+b11101 f
+b10010 e
+b10001 d
+b10000 c
+b1111 b
+b1110 a
+b1101 `
+b1100 _
+b1011 ^
+b1010 ]
+b1001 \
+b1000 [
+b111 Z
+b110 Y
+b1100100 X
+b10100 H
+b11110 G
+b11000011010100000 F
+b10100 E
+b1100100 D
+$end
+#0
+$dumpvars
+b100000000 [#
+bx Z#
+bx W#
+bx V#
+bx U#
+bx T#
+bx S#
+bx O#
+bx N#
+bx M#
+bx L#
+bx K#
+bx J#
+bx I#
+bx H#
+bx G#
+bx F#
+bx E#
+xD#
+xC#
+xB#
+bx A#
+x@#
+x?#
+x>#
+x=#
+x<#
+x;#
+bx :#
+bx 9#
+bx 8#
+bx 7#
+bx 6#
+bx 5#
+x4#
+x3#
+x2#
+x1#
+bx 0#
+bx /#
+bx .#
+bx -#
+bx ,#
+bx +#
+bx *#
+x)#
+x(#
+bx '#
+bx &#
+bx v"
+bx u"
+bx t"
+xs"
+bx r"
+xq"
+xp"
+xo"
+bx n"
+bx m"
+bx l"
+bx k"
+bx j"
+bx i"
+xh"
+bx g"
+bx f"
+bx e"
+bx d"
+bx c"
+bx b"
+bx a"
+x`"
+x_"
+bx ^"
+bx ]"
+bx \"
+bx ["
+bx Z"
+bx Y"
+bx X"
+bx W"
+bx V"
+bx U"
+xT"
+bx S"
+bx R"
+bx Q"
+xP"
+bx O"
+bx N"
+bx M"
+bx L"
+xK"
+bx J"
+bx I"
+bx H"
+xG"
+xF"
+xE"
+bx D"
+bx C"
+bx B"
+xA"
+bx @"
+bx ?"
+bx >"
+bx ="
+bx <"
+bx ;"
+bx :"
+bx 9"
+bx 8"
+bx 7"
+bx 6"
+x5"
+bx 4"
+bx 3"
+bx 2"
+bx 1"
+bx 0"
+bx /"
+bx W
+bx V
+bx U
+bx T
+bx S
+xR
+xQ
+bx P
+bx O
+bx N
+bx M
+bx L
+bx K
+xJ
+bx I
+xC
+xB
+bx A
+bx @
+x?
+x>
+bx =
+bx <
+bx ;
+x:
+x9
+bx 8
+x7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+b0 0
+b0 /
+b0 .
+0-
+0,
+0+
+0*
+0)
+1(
+x'
+bx &
+x%
+x$
+x#
+x"
+x!
+$end
+#5000
+b0 V
+b0 H#
+b0 L#
+b0 S
+b10 W
+b0 O
+b0 N
+b0 M
+b0 L
+b0 K#
+b111111111 I#
+b0 J#
+b0 3
+b0 W#
+b0 O#
+b111111111 M#
+b0 N#
+1R
+b1 U
+b0 T
+b0 K
+b0 P
+b0 u"
+1!
+1"
+01#
+02#
+03#
+04#
+b111 &
+b111 1
+0:
+09
+b0 5
+b0 '#
+b0 G#
+b0 =
+b0 &#
+b0 F#
+0$
+0#
+1%
+0(#
+b0 +#
+b0 .#
+b0 *#
+b0 ,#
+0)#
+b0 -#
+0>
+b0 4
+b0 5#
+b0 V#
+b0 <
+b0 8#
+b0 S#
+b0 6
+b0 6#
+b0 U#
+b0 ;
+b0 7#
+b0 T#
+0B
+1C
+0?
+b0 @
+b0 d"
+b0 0#
+b0 A
+b0 Y"
+b0 /#
+0A"
+0G"
+0E"
+0F"
+b0 B"
+b0 J"
+b0 I"
+b0 H"
+b0 D"
+b0 C"
+0P"
+0T"
+b0 Q"
+b0 S"
+b0 U"
+b0 O"
+b0 R"
+b0 <"
+b0 W"
+b0 c"
+b0 ="
+b0 9"
+b0 8"
+b0 ;"
+b0 :"
+b0 j"
+b0 i"
+b0 @"
+b0 f"
+b0 g"
+b0 N"
+b0 M"
+b0 L"
+b0 7"
+b0 6"
+b0 4"
+b0 3"
+b0 2"
+b0 1"
+b0 0"
+b0 /"
+b0 ?"
+b0 Z"
+b0 ["
+b0 a"
+b0 V"
+b0 ]"
+b0 ^"
+b0 \"
+b0 e"
+05"
+0_"
+0`"
+0h"
+1Q
+0K"
+b0 >"
+b0 X"
+b0 b"
+b0 8
+b0 :#
+07
+0'
+0>#
+b0 9#
+b0 A#
+b0 E#
+1<#
+1=#
+1;#
+0@#
+0?#
+0C#
+0D#
+0B#
+0J
+b0 I
+b10110 k"
+1-
+#10000
+0-
+#15000
+b10110 k"
+1-
+#20000
+0-
+#25000
+b10110 k"
+1-
+#30000
+0-
+1,
+#35000
+b1 b"
+b10110 ["
+b111 >"
+b11101110 e"
+b1 ,#
+1-
+#40000
+0-
+#45000
+b10 ,#
+b1 X"
+1-
+#50000
+0-
+#55000
+0"
+b10 X"
+1`"
+b11 ,#
+1-
+#60000
+0-
+#65000
+0!
+b100 ,#
+b11 X"
+1_"
+1-
+#70000
+0-
+#75000
+b10 b"
+b0 X"
+b101 ,#
+1-
+#80000
+0-
+#85000
+1"
+b110 ,#
+b1 X"
+0`"
+1-
+#90000
+0-
+#95000
+1!
+b10 X"
+0_"
+b111 ,#
+1-
+#100000
+0-
+#105000
+b1000 ,#
+b11 X"
+1-
+#110000
+0-
+#115000
+0!
+b110 >"
+b0 X"
+1_"
+b1001 ,#
+1-
+#120000
+0-
+#125000
+b1010 ,#
+b1 X"
+1-
+#130000
+0-
+#135000
+1!
+b10 X"
+0_"
+b1011 ,#
+1-
+#140000
+0-
+#145000
+b1100 ,#
+b11 X"
+1-
+#150000
+0-
+#155000
+0!
+b101 >"
+b0 X"
+1_"
+b1101 ,#
+1-
+#160000
+0-
+#165000
+b1110 ,#
+b1 X"
+1-
+#170000
+0-
+#175000
+1!
+b10 X"
+0_"
+b1111 ,#
+1-
+#180000
+0-
+#185000
+b10000 ,#
+b11 X"
+1-
+#190000
+0-
+#195000
+0!
+b100 >"
+b0 X"
+1_"
+b10001 ,#
+1-
+#200000
+0-
+#205000
+0"
+b10010 ,#
+b1 X"
+1`"
+1-
+#210000
+0-
+#215000
+1!
+b10 X"
+0_"
+b10011 ,#
+1-
+#220000
+0-
+#225000
+1:
+b1 -#
+b0 ,#
+b11 X"
+1-
+#230000
+0-
+#235000
+0!
+b11 >"
+b0 X"
+1_"
+b10 -#
+1$
+b1100000000000000 .#
+0%
+1-
+#240000
+0-
+#245000
+1"
+b1 *#
+1#
+b1 X"
+0`"
+1-
+#250000
+0-
+#255000
+1!
+b10 X"
+0_"
+b1000000000000000 .#
+0#
+1-
+#260000
+0-
+#265000
+b10 *#
+1#
+b11 X"
+1-
+#270000
+0-
+#275000
+0!
+b10 >"
+b0 X"
+1_"
+0$
+b0 .#
+0#
+1-
+#280000
+0-
+#285000
+b11 *#
+1#
+b1 X"
+1-
+#290000
+0-
+#295000
+1!
+b10 X"
+0_"
+0#
+1-
+#300000
+0-
+#305000
+b100 *#
+1#
+b11 X"
+1-
+#310000
+0-
+#315000
+0!
+b1 >"
+b0 X"
+1_"
+0#
+1-
+#320000
+0-
+#325000
+b101 *#
+1#
+b1 X"
+1-
+#330000
+0-
+#335000
+1!
+b10 X"
+0_"
+0#
+1-
+#340000
+0-
+#345000
+b110 *#
+1#
+b11 X"
+1-
+#350000
+0-
+#355000
+0!
+b0 >"
+b0 X"
+1_"
+0#
+1-
+#360000
+0-
+#365000
+0"
+b111 *#
+1#
+b1 X"
+1`"
+1-
+#370000
+0-
+#375000
+1!
+b10 X"
+0_"
+0#
+1-
+#380000
+0-
+#385000
+b1000 *#
+1#
+b11 X"
+1-
+#390000
+0-
+#395000
+0!
+b11 b"
+b0 X"
+1_"
+0#
+1-
+#400000
+0-
+#405000
+1"
+b1001 *#
+1#
+b1 X"
+0`"
+1-
+#410000
+0-
+#415000
+1!
+b10 X"
+0_"
+0#
+1-
+#420000
+0-
+#425000
+b1010 *#
+1#
+b11 X"
+1-
+#430000
+0-
+b1 /
+b1 0

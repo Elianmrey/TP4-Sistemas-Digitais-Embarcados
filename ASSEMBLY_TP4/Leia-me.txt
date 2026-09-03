@@ -1,0 +1,6 @@
+Comandos para executar o programa uma vez compilado:
+#1-  sudo ./tp4_program 1   - (ECU em estado 1 (valores corretos))
+#2-  sudo ./tp4_program 2   - (ECU em estado 2 (valores incorretos))
+#3-  sudo ./tp4_program 3   - (ECU em estado 3 (valores corretos))
+#4-  sudo ./tp4_program 4   - (ECU em estado 4 (valores incorretos))
+#5-  sudo ./tp4_program m   - (ECU teste do motor) 
